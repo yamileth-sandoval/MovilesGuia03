@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MovilesGuia03</string>
+    <string name="verLista">VER LISTA</string>
+    <string name="agregarNombre">AGREGAR NOMBRE</string>
+    <string name="misDatos">MIS DATOS</string>
+    <string name="ingresarNombre">Ingresar nombre:</string>
+    <string name="nombre">Nombre</string>
+    <string name="guardar">GUARDAR</string>
+    <string name="nomPersonal">Nombre: \n Sandra Yamileth Sandoval Molina</string>
+    <string name="codigo">Codigo: \n SM16-I04-001</string>
+    <string name="lista">LISTA DE NOMBRES</string>
+</resources>

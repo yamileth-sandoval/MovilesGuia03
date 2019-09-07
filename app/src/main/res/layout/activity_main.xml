@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnVerLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="40dp"
+        android:onClick="clickVerLista"
+        android:padding="15dp"
+        android:text="@string/verLista"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="@string/verLista" />
+
+    <Button
+        android:id="@+id/btnAgregarNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:onClick="clickAgregarNombre"
+        android:padding="15dp"
+        android:text="@string/agregarNombre"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnMisDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:onClick="clickMisDatos"
+        android:padding="15dp"
+        android:text="@string/misDatos"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
